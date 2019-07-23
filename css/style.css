@@ -1,7 +1,7 @@
 
 .header img {
   /*float: left;*/
- 
+
   width: 1750px;
   height: 350px;
  /* background: #555;*/
@@ -14,6 +14,7 @@ section{
 	margin-right: auto;
 /*	margin-top: 20px;*/
 	margin-bottom: 10px;
+   border-radius: 80px;
 }
 
 
@@ -36,7 +37,7 @@ nav a:hover{
 nav a{
 
 	margin-right: 200px;
-
+ border-radius: 80px;
 }
 
 
@@ -47,6 +48,7 @@ nav a{
   margin-top: 10%;
 
   width: 100%;
+   border-radius: 80px;
 }
 
 
@@ -60,7 +62,7 @@ body, html {
   color: #3d6eff;
 }
 
-.img-1, .img-2, .img-3, .img-4 {
+.img-1, .img-2, .img-3, .img-4, .img-c1, .img-c2, .img-c3, .img-b1, .img-b2, .img-b3, .img-g1, .img-g2, .img-g3 {
   position: relative;
 /*  opacity: 0.65;*/
   background-attachment: fixed;
@@ -80,17 +82,55 @@ body, html {
 
 .img-2 {
   background-image: url("../img/box01.jpg");
-  min-height: 600px;
+  min-height: 800px;
 }
 
 .img-3 {
   background-image: url("../img/graf01.jpg");
-  min-height: 600px;
+  min-height: 800px;
 }
 
 .img-4 {
   background-image: url("../img/cam04.jpg");
-  min-height: 600px;
+  min-height: 800px;
+}
+
+
+.img-c1 {
+  background-image: url("../img/cam02.jpg");
+  min-height: 800px;
+}
+.img-c2 {
+  background-image: url("../img/cam03.jpg");
+  min-height: 800px;
+}
+.img-c3 {
+  background-image: url("../img/cam05.jpg");
+  min-height: 800px;
+}
+.img-g1 {
+  background-image: url("../img/graf02.jpg");
+  min-height: 800px;
+}
+.img-g2 {
+  background-image: url("../img/graf05.jpg");
+  min-height: 800px;
+}
+.img-g3 {
+  background-image: url("../img/graf04.jpg");
+  min-height: 800px;
+}
+.img-b1 {
+  background-image: url("../img/box01.jpg");
+  min-height: 800px;
+}
+.img-b2 {
+  background-image: url("../img/box001.jpg");
+  min-height: 800px;
+}
+.img-b3 {
+  background-image: url("../img/box04.jpg");
+  min-height: 800px;
 }
 
 
@@ -101,8 +141,18 @@ body, html {
   top: 25%;
   width: 100%;
   text-align: center;
-  color: #3d6eff;
+  color: #d5f7fd;
 }
+
+.caption0 span.border {
+  background-color: #000000;
+	 text-align: center;
+       border-radius: 80px;
+  padding: 20px;
+  font-size: 70px;
+  letter-spacing: 8px;
+}
+
 
 .caption {
 
@@ -111,12 +161,12 @@ body, html {
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #3d6eff;
+  color: #d5f7fd;
 }
 
 .caption span.border {
 	 text-align: center;
-
+    border-radius: 80px;
   font-size: 50px;
   letter-spacing: 8px;
 }
@@ -139,6 +189,7 @@ h2 {
   text-transform: uppercase;
   font: 20px "Verdana";
   color: #d5f7fd;
+      border-radius: 80px;
 }
 
 
@@ -149,7 +200,5 @@ h3 {
   text-transform: uppercase;
   font: 20px "Verdana";
   color: #3d6eff;
+      border-radius: 80px;
 }
-
-
-
