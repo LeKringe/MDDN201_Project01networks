@@ -1,190 +1,155 @@
-*{
-	box-sizing: border-box; 
-	/* This makes the widths of elements more consistent
-		Full details here https://css-tricks.com/box-sizing/ */
-}
-
-body{
-	margin: 0px; /* Often browsers have a 5px margin by deafult*/
-	color: #75D1FF;
-	font-family: sans-serif;
-	background-color: #1D3440;
-}
-
-
-/*@font-face {
-  font-family: VT323;
-  src: url(https://fonts.google.com/specimen/VT323);
-}
-
-div {
-  font-family: VT323;
-}*/
-
-
-/*h1 { font-family: VT323; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: VT323; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: VT323; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: VT323; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: VT323; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }*/
-
-
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
-section{
-	 text-align: center;
-	max-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-/*header{
-	background-color: darkOrange;
-	color: white; 
-	padding-top: 50px;
-	padding-bottom: 50px;
-	  border-radius: 80px;
-  margin-bottom: 30px;
-  float: center;
-  margin-right: 20px;
-}*/
-
 
 .header img {
   /*float: left;*/
  
- /* width: 567px;
-  height: 425.1px;*/
-  background: #555;
+  width: 1750px;
+  height: 350px;
+ /* background: #555;*/
 }
 
-.header h1{
-	background-color: #3B6980;
-	color: white; /* more readable on an orange background */
-	padding-top: 50px;
-	padding-bottom: 50px;
-	  border-radius: 80px;
-  margin-bottom: 30px;
-  float: center;
-  margin-right: 20px;
+section{
+	 text-align: center;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+/*	margin-top: 20px;*/
+	margin-bottom: 10px;
 }
 
-/*nav{
-	width: 100%;
-	height: 60px;
-	background-color: wheat;
-		  border-radius: 80px;
-  margin-bottom: 30px;
-  float: left;
-  margin-right: 20px;
-}*/
 
+
+/*
 nav{
 	width: 100%;
-	height: 60px;
+	height: 50px;
 	background-color: #3B6980;
-		  border-radius: 80px;
-  margin-bottom: 30px;
-  float: left;
-  margin-right: 20px;
-}
+  	float: left;
 
-nav a, nav h3{
-	/*float: left;
-	margin: 0px;
-	line-height: 60px;
-	margin-left: 1em;
-	margin-right: 1em;
-	text-decoration: none;*/
-	display: inline-flex;
-}
+}*/
+
 
 nav a:hover{
 	/*text-decoration: underline;*/ /* Hover styles to let people know they can click it */
 	color: white;
 }
 
+nav a{
 
+	margin-right: 200px;
 
-/* Simple grid */
-.g-row{
-	width: 100%;
-	overflow: hidden;
-}
-
-.g-row img{
-	width: 100%; /*This makes all images in grids to be the size of their cell */
-}
-
-.g-50{
-	width: 50%;
-	float: left;
-}
-
-.g-30{
-	width: 30%;
-	float: left;
-}
-
-.g-70{
-	width: 70%;
-	float: left;
-}
-
-.show{
-	border: 1px solid blue;
-	padding: 2px;
-}
-
-.padded{
-	padding: 20px; /* I add this to cells to add a little padding*/
 }
 
 
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-}
-
-.image {
+.center {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+
   width: 100%;
-  height: auto;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+
+body, html {
+	background-color: #87e5ff;
+	 text-align: center;
   height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .3s ease;
-  background-color: red;
+  margin: 0;
+
+  font: 400 25px/1.8 "Verdana";
+  color: #3d6eff;
 }
 
-.container:hover .overlay {
-  opacity: 1;
+.img-1, .img-2, .img-3, .img-4 {
+  position: relative;
+/*  opacity: 0.65;*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
-.icon {
-  color: white;
-  font-size: 100px;
+
+
+
+.img-1 {
+  background-image: url("../img/unnamed.jpg");
+  min-height: 100%;
+}
+
+.img-2 {
+  background-image: url("../img/box01.jpg");
+  min-height: 600px;
+}
+
+.img-3 {
+  background-image: url("../img/graf01.jpg");
+  min-height: 600px;
+}
+
+.img-4 {
+  background-image: url("../img/cam04.jpg");
+  min-height: 600px;
+}
+
+
+.caption0 {
+
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+ /* left: 50%;*/
+  top: 25%;
+  width: 100%;
   text-align: center;
+  color: #3d6eff;
 }
 
-.fa-user:hover {
-  color: #eee;
+.caption {
+
+  position: absolute;
+ /* left: 50%;*/
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #3d6eff;
 }
+
+.caption span.border {
+	 text-align: center;
+
+  font-size: 50px;
+  letter-spacing: 8px;
+}
+
+
+
+
+h1 {
+	  background-color: #d5f7fd;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Verdana";
+  color: #3d6eff;
+}
+
+
+h2 {
+	  background-color: #3d6eff;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Verdana";
+  color: #d5f7fd;
+}
+
+
+
+h3 {
+	  background-color: #d5f7fd;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Verdana";
+  color: #3d6eff;
+}
+
+
+
