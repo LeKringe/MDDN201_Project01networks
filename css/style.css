@@ -14,7 +14,7 @@ section{
 	margin-right: auto;
 /*	margin-top: 20px;*/
 	margin-bottom: 10px;
-   border-radius: 80px;
+   border-radius: 40px;
 }
 
 
@@ -37,7 +37,7 @@ nav a:hover{
 nav a{
 
 	margin-right: 200px;
- border-radius: 80px;
+ border-radius: 40px;
 }
 
 
@@ -147,7 +147,7 @@ body, html {
 .caption0 span.border {
   background-color: #000000;
 	 text-align: center;
-       border-radius: 80px;
+       border-radius: 50px;
   padding: 20px;
   font-size: 70px;
   letter-spacing: 8px;
@@ -166,7 +166,7 @@ body, html {
 
 .caption span.border {
 	 text-align: center;
-    border-radius: 80px;
+    border-radius: 50px;
   font-size: 50px;
   letter-spacing: 8px;
 }
@@ -189,7 +189,7 @@ h2 {
   text-transform: uppercase;
   font: 20px "Verdana";
   color: #d5f7fd;
-      border-radius: 80px;
+      border-radius: 40px;
 }
 
 
@@ -200,5 +200,5 @@ h3 {
   text-transform: uppercase;
   font: 20px "Verdana";
   color: #3d6eff;
-      border-radius: 80px;
+      border-radius: 50px;
 }
